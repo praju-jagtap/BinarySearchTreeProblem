@@ -59,9 +59,13 @@ namespace BinarySearchTreeProgram
             if (node != null)
             {
                 Display(node.leftNode);
-                Console.WriteLine("Element in binary serach tree is: " + node.data);
+                Console.WriteLine("Element in Binary Serach tree Is: " + node.data);
                 Display(node.rightNode);
             }
+        }
+        public int GetSize()
+        {
+            return count;
         }
     }
 }
